@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* Root font-size will be here as reference to all rem units.*/
+/* Percentage of default font-size. Usually would be 16px */
+html {
+  // Base definition for 1 rem.
+  font-size: 62.5%;
+  padding: 3rem;
+}
+
+/* body properties will be inherited by all other body
+   elements, padding will only go around the body element.*/
+body {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: 'Roboto Mono', sans-serif;
+  // text-align: center;
+}
