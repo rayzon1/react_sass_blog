@@ -1,0 +1,43 @@
+// main primary heading container
+
+.header {
+  &__primary {
+    background-color: red;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    align-items: flex-end;
+    padding: 0 4rem 0 4rem;
+    margin-right: 2rem;
+    width: 100%;
+
+    .icon-box {
+      border-radius: 10rem;
+      background-color: orange;
+      height: 12rem;
+      width: 12rem;
+      margin-right: 1.5rem;
+    }
+  }
+
+  &__container {
+    display: flex;
+    animation: moveInLeft 1.3s ease-out;
+    padding: 2rem;
+  }
+
+  &__title-main {
+    color: purple;
+    align-self: flex-end;
+    font-size: 1.6rem;
+  }
+
+  &__title-sub {
+    color: yellow;
+    align-self: flex-end;
+    font-size: 2rem;
+  }
+}
+
+
