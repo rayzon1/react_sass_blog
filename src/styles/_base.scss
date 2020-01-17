@@ -18,9 +18,15 @@ html {
    elements, padding will only go around the body element.*/
 body {
   box-sizing: border-box;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-grey-dark-1;
+  
 }
 
-.App {
-  font-family: 'Roboto Mono', sans-serif;
-  // text-align: center;
+@media only screen and (max-width: 520px) {
+  html {
+    padding: 0;
+  }
 }

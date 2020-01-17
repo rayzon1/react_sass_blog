@@ -2,8 +2,8 @@
 
 .header {
   &__primary {
-    background-color: red;
-    height: 50vh;
+    // background-color: red;
+    height: 62vh;
     display: flex;
     flex-direction: row;
     text-transform: uppercase;
@@ -11,12 +11,15 @@
     padding: 0 4rem 0 4rem;
     margin-right: 2rem;
     width: 100%;
+    position: relative;
+    opacity: .89;
 
+    
     .icon-box {
       border-radius: 10rem;
       background-color: orange;
-      height: 12rem;
-      width: 12rem;
+      height: 16rem;
+      width: 16rem;
       margin-right: 1.5rem;
     }
   }
@@ -28,16 +31,36 @@
   }
 
   &__title-main {
-    color: purple;
+    color: $color-black;
     align-self: flex-end;
     font-size: 1.6rem;
   }
 
   &__title-sub {
-    color: yellow;
+    color: $color-grey-dark-3;
     align-self: flex-end;
     font-size: 2rem;
   }
 }
 
+@media only screen and (max-width: 720px)  {
+
+  .header {
+    &__container {
+      flex-direction: column;
+    }
+
+    &__title-main {
+      align-self: flex-start;
+      margin-bottom: .5rem;
+    }
+
+    .icon-box {
+      margin-bottom: 1rem;
+    }
+
+    
+  }
+
+}
 
