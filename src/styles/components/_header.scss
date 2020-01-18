@@ -17,10 +17,18 @@
     
     .icon-box {
       border-radius: 10rem;
-      background-color: orange;
+      background-color: papayawhip;
       height: 16rem;
       width: 16rem;
-      margin-right: 1.5rem;
+      margin-right: 3.5rem;
+      position: relative;
+      // z-index: 100;
+      transition: all .3s;
+      
+      &__icon {
+        height: 16rem;
+        width: 16rem;
+      }
     }
   }
 
@@ -28,19 +36,36 @@
     display: flex;
     animation: moveInLeft 1.3s ease-out;
     padding: 2rem;
+    letter-spacing: .5rem;
   }
 
   &__title-main {
     color: $color-black;
     align-self: flex-end;
-    font-size: 1.6rem;
+    font-size: 2.6rem;
+    background-color: ghostwhite;
+    transition: all .3s;
+
+    &:hover {
+      transform: scale(1.3) rotate(5deg);
+      background-color: rgba($color-primary-orange, 0.8);
+      color: cornflowerblue;
+      box-shadow: -4px 1rem 2rem 5px $color-black;
+      
+    }
   }
 
   &__title-sub {
     color: $color-grey-dark-3;
     align-self: flex-end;
     font-size: 2rem;
+    margin-left: 2.5rem;
+    margin-bottom: -.5rem;
+    background-color: papayawhip;
   }
+
+
+  
 }
 
 @media only screen and (max-width: 720px)  {
@@ -48,11 +73,17 @@
   .header {
     &__container {
       flex-direction: column;
+      letter-spacing: 0;
     }
 
     &__title-main {
       align-self: flex-start;
       margin-bottom: .5rem;
+      font-size: 1.6rem;
+    }
+
+    &__title-sub {
+      margin-left: 0;
     }
 
     .icon-box {

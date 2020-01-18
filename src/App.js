@@ -7,8 +7,8 @@ export default function App() {
       <Header />
       <main>
         <section className="about">
-          <h4 className="about__title--main">Hello World</h4>
-          <h5 className="about__title--sub u-margin-bottom-sm">Hello World</h5>
+          <h4 className="about__title--main">ABOUT ME</h4>
+          <h6 className="about__title--sub u-margin-bottom-sm"><em>Hello World</em></h6>
           <p className="about__description">
             Duis cursus dui et commodo porta. Cras vitae facilisis elit. Sed
             tempor nulla lorem, eget porta magna rhoncus eu. Fusce eget lorem sit

@@ -1,6 +1,17 @@
 .about {
-  padding: 4rem;
+  padding: 3rem;
   background-color: #eee;
   min-height: 70vh;
   font-size: 1.5rem;
+
+  &__title {
+
+    &--main {
+      font-size: 1.6rem;
+    }
+
+    &--sub {
+      
+    }
+  }
 }

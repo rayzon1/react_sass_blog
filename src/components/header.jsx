@@ -1,5 +1,6 @@
 import React from 'react';
 import BgVideo from './BgVideo';
+import UserIcon2 from '../img/user-icon-demo-2.png'
 
 export default function Header() {
 
@@ -12,7 +13,7 @@ export default function Header() {
             <div className="header__container u-margin-bottom-md">
             
               <div className="icon-box">
-                <img src="#" alt="" className="profile-icon" />
+                <img src={UserIcon2} alt="" className="icon-box__icon" />
               </div>
               <span className="header__title-main">This is the main title.</span>
               <span className="header__title-sub">This is a sub heading.</span>

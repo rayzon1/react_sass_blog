@@ -1,0 +1,8 @@
+// not used, starter mixin
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
