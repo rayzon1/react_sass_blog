@@ -7,18 +7,28 @@ export default function App() {
       <Header />
       <main>
         <section className="about">
-          <h4 className="about__title--main">ABOUT ME</h4>
-          <h6 className="about__title--sub u-margin-bottom-sm"><em>Hello World</em></h6>
+          <h4 className="about__title--main u-margin-bottom-md">ABOUT ME</h4>
+          {/* <h6 className="about__title--sub u-margin-bottom-sm">
+            <em>Hello World</em>
+          </h6> */}
           <p className="about__description">
-            Duis cursus dui et commodo porta. Cras vitae facilisis elit. Sed
-            tempor nulla lorem, eget porta magna rhoncus eu. Fusce eget lorem sit
-            amet mi faucibus mattis. Morbi tincidunt suscipit tempus. Proin ut
-            tristique arcu, non vehicula lacus. In hac habitasse platea dictumst.
-            Proin scelerisque tempus commodo. Ut ultrices at erat id suscipit.
-            Aenean sed leo sed magna luctus mollis quis semper lorem. Donec tempor
-            dolor sed tortor mollis egestas. Mauris mi quam, dictum a tortor
-            vitae, placerat facilisis risus. In eu tempus lacus. Phasellus sem
-            enim, ornare eget congue ut, posuere sit amet ligula.
+            Hello my name is Gerardo Keys. I have over 5 years of IT support
+            experience working at some of the biggest tech companies in the
+            world. I have become very experienced working in high performing and
+            stressful environments, that have challenged and tested me in many
+            different ways. I bring a diverse skillset of technical experience
+            and amazing customer service. I am currently looking for new
+            opportunities and challenges and to continue to grow with a great
+            team. I have experience working in every aspect of IT including
+            Google suite administration, Active Directory administration,
+            executive support, onboarding, AV / conference room support,
+            networking and security support, jira ticketing system, new
+            engineering setups. On my own I have studied programming,
+            specifically web application development using tools such as
+            JavaScript, HTML, CSS, React, Node, and SQL. I have become
+            proficient and have a GitHub account with about 20 or so projects.
+            Doing this has given me a deeper understanding of programming which
+            I can bring to any job that needs it.
           </p>
         </section>
       </main>

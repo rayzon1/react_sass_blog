@@ -1,6 +1,7 @@
 // main primary heading container
 
 .header {
+  
   &__primary {
     // background-color: red;
     height: 62vh;
@@ -47,11 +48,7 @@
     transition: all .3s;
 
     &:hover {
-      transform: scale(1.3) rotate(5deg);
-      background-color: rgba($color-primary-orange, 0.8);
-      color: cornflowerblue;
-      box-shadow: -4px 1rem 2rem 5px $color-black;
-      
+      @include cardpop($color-primary-orange, cornflowerblue); // pop out animation
     }
   }
 
@@ -62,6 +59,11 @@
     margin-left: 2.5rem;
     margin-bottom: -.5rem;
     background-color: papayawhip;
+    transition: all .3s;
+
+    &:hover {
+      @include cardpop($color-primary-orange, cornflowerblue); // pop out animation
+    }
   }
 
 

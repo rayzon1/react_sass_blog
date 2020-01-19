@@ -1,17 +1,39 @@
 .about {
-  padding: 3rem;
+  padding: 12rem 5rem 0 5rem;
   background-color: #eee;
-  min-height: 70vh;
-  font-size: 1.5rem;
+  min-height: 85vh;
+  // font-size: 1.5rem;
+
+  &__description {
+    font-size: 2.5rem;
+  }
 
   &__title {
 
     &--main {
-      font-size: 1.6rem;
+      font-size: 4.5rem;
     }
 
     &--sub {
       
     }
   }
+}
+
+@media only screen and (max-width: 720px)  {
+
+  .about {
+    padding: 8rem 5rem 0 5rem;
+
+    &__description {
+      font-size: 2rem;
+    }
+
+    &__title {
+      &--main {
+        font-size: 4rem;
+      }
+    }
+  }
+
 }

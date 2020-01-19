@@ -15,8 +15,8 @@ export default function Header() {
               <div className="icon-box">
                 <img src={UserIcon2} alt="" className="icon-box__icon" />
               </div>
-              <span className="header__title-main">This is the main title.</span>
-              <span className="header__title-sub">This is a sub heading.</span>
+              <span className="header__title-main">Gerardo Keys.</span>
+              <span className="header__title-sub">Coder Designer Content Creator</span>
             </div>
           </h1>
         </header>
