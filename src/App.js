@@ -8,9 +8,6 @@ export default function App() {
       <main>
         <section className="about">
           <h4 className="about__title--main u-margin-bottom-md">ABOUT ME</h4>
-          {/* <h6 className="about__title--sub u-margin-bottom-sm">
-            <em>Hello World</em>
-          </h6> */}
           <p className="about__description">
             Hello my name is Gerardo Keys. I have over 5 years of IT support
             experience working at some of the biggest tech companies in the

@@ -1,11 +1,12 @@
 .about {
   padding: 12rem 5rem 0 5rem;
   background-color: #eee;
-  min-height: 85vh;
+  height: 100vh;
   // font-size: 1.5rem;
 
   &__description {
     font-size: 2.5rem;
+    line-height: 6rem;
   }
 
   &__title {
@@ -23,10 +24,11 @@
 @media only screen and (max-width: 720px)  {
 
   .about {
-    padding: 8rem 5rem 0 5rem;
+    padding: 6rem 3rem 0 3rem;
 
     &__description {
       font-size: 2rem;
+      line-height: 3.5rem;
     }
 
     &__title {
