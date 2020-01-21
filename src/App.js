@@ -28,6 +28,20 @@ export default function App() {
             I can bring to any job that needs it.
           </p>
         </section>
+        <section className="section-education">
+          <div className="education">
+            <div className="education__row--1">
+
+            </div>
+            <div className="education__row--2">
+
+            </div>
+            <div className="education__row--3">
+
+            </div>
+
+          </div>
+        </section>
       </main>
     </div>
   );
