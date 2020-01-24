@@ -1,0 +1,27 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 75vh;
+  width: 100%;
+  background-color: #eee;
+  padding: 6rem 3rem;
+  justify-content: space-around;
+
+  &__container {
+    background-color: rgba($color-white, 0.8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+    transition: transform 0.3s;
+    align-self: center;
+    width: 25rem;
+    height: 37rem;
+
+    &:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+    }
+  }
+}

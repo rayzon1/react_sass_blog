@@ -18,7 +18,7 @@
     
     .icon-box {
       border-radius: 10rem;
-      background-color: papayawhip;
+      background-color: $color-primary-orange-1;
       height: 16rem;
       width: 16rem;
       margin-right: 3.5rem;
@@ -44,11 +44,11 @@
     color: $color-black;
     align-self: flex-end;
     font-size: 2.6rem;
-    background-color: ghostwhite;
+    background-color: papayawhip;
     transition: all .3s;
 
     &:hover {
-      @include cardpop($color-primary-orange, cornflowerblue); // pop out animation
+      @include cardpop($color-primary-orange-1, cornflowerblue); // pop out animation
     }
   }
 
@@ -62,7 +62,7 @@
     transition: all .3s;
 
     &:hover {
-      @include cardpop($color-primary-orange, cornflowerblue); // pop out animation
+      @include cardpop($color-primary-orange-1, cornflowerblue); // pop out animation
     }
   }
 

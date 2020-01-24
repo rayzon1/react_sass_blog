@@ -1,5 +1,4 @@
 import React from "react";
-import UserIcon1 from "../img/user-icon-demo-1.jpg";
 
 export default function Education({ education }) {
   // Main education detail section
