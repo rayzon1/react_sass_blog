@@ -13,21 +13,21 @@ export const data = {
       caption: "CompTia A+",
       descriptionSub: "CompTia A+ Certification",
       descriptionMain:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio eos in officiis debitis fugit saepe pariatur! Loremipsum dolor sit amet consectetur adipisicing elit. Lorem ipsumdolor sit amet consectetur adipisicing elit.Distinctio eos inofficiis debitis, fugit saepe pariatur"
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio eos in officiis debitis fugit saepe pariatur! Loremipsum dolor sit amet consectetur adipisicing elit. Lorem ipsumdolor sit amet consectetur adipisicing elit.Distinctio eos inofficiis debitis,fugit saepe pariatur"
     },
     {
       id: 2,
       logo: SecPlusComp,
-      caption: "Bravo",
-      descriptionSub: "I had the best week ever with my family",
+      caption: "CompTia Security+",
+      descriptionSub: "CompTia Security+ Certification",
       descriptionMain:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio eos in officiis debitis fugit saepe pariatur! Loremipsum dolor sit amet consectetur adipisicing elit. Lorem ipsumdolor sit amet consectetur adipisicing elit.Distinctio eos inofficiis debitis, fugit saepe pariatur"
     },
     {
       id: 3,
       logo: Treehouse,
-      caption: "Charlie",
-      descriptionSub: "I had the best week ever with my family",
+      caption: "Team Treehouse",
+      descriptionSub: "Team Treehouse Full-Stack JavaScript Bootcamp",
       descriptionMain:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio eos in officiis debitis fugit saepe pariatur! Loremipsum dolor sit amet consectetur adipisicing elit. Lorem ipsumdolor sit amet consectetur adipisicing elit.Distinctio eos inofficiis debitis, fugit saepe pariatur"
     }
