@@ -2,40 +2,33 @@
   padding: 12rem 5rem;
   background-color: #eee;
   height: 100%;
-  // font-size: 1.5rem;
+  
+  @include respond(tab-port) {
+    padding: 6rem 3rem;
+  }
 
   &__description {
     font-size: 2.5rem;
     line-height: 6rem;
+
+    @include respond(tab-port) {
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+    }
   }
 
   &__title {
 
     &--main {
       font-size: 4.5rem;
+
+      @include respond(tab-port) {
+        font-size: 4rem;
+      }
     }
 
     &--sub {
       
     }
   }
-}
-
-@media only screen and (max-width: 770px)  {
-
-  .about {
-    padding: 6rem 3rem;
-
-    &__description {
-      font-size: 2.5rem;
-      line-height: 3.5rem;
-    }
-
-    &__title {
-      &--main {
-        font-size: 4rem;
-      }
-    }
-  }
-
 }

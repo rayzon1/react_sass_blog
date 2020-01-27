@@ -25,6 +25,10 @@
       position: relative;
       // z-index: 100;
       transition: all .3s;
+
+      @include respond(tab-port) {
+        margin-bottom: 1rem;
+      }
       
       &__icon {
         height: 16rem;
@@ -38,14 +42,25 @@
     animation: moveInLeft 1.3s ease-out;
     padding: 2rem;
     letter-spacing: .5rem;
+
+    @include respond(tab-port) {
+      flex-direction: column;
+      letter-spacing: 0;
+    }
   }
 
   &__title-main {
     color: $color-black;
     align-self: flex-end;
-    font-size: 2.6rem;
+    font-size: 3.5rem;
     background-color: papayawhip;
     transition: all .3s;
+
+    @include respond(tab-port) {
+      align-self: flex-start;
+      margin-bottom: .5rem;
+      font-size: 1.6rem;
+    }
 
     &:hover {
       @include cardpop($color-primary-orange-1, cornflowerblue); // pop out animation
@@ -55,45 +70,21 @@
   &__title-sub {
     color: $color-grey-dark-3;
     align-self: flex-end;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-left: 2.5rem;
     margin-bottom: -.5rem;
     background-color: papayawhip;
     transition: all .3s;
 
+    @include respond(tab-port) {
+      margin-left: 0;
+    }
+
     &:hover {
       @include cardpop($color-primary-orange-1, cornflowerblue); // pop out animation
     }
   }
-
-
   
 }
 
-@media only screen and (max-width: 720px)  {
-
-  .header {
-    &__container {
-      flex-direction: column;
-      letter-spacing: 0;
-    }
-
-    &__title-main {
-      align-self: flex-start;
-      margin-bottom: .5rem;
-      font-size: 1.6rem;
-    }
-
-    &__title-sub {
-      margin-left: 0;
-    }
-
-    .icon-box {
-      margin-bottom: 1rem;
-    }
-
-    
-  }
-
-}
 
