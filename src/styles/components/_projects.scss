@@ -2,11 +2,15 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  height: 75vh;
+  height: 90vh;
   width: 100%;
   background-color: #eee;
   padding: 6rem 3rem;
   justify-content: space-around;
+
+  @include respond(tab-port) {
+    flex-direction: column;
+  }
 
   &__container {
     background-color: rgba($color-white, 0.8);
@@ -17,8 +21,9 @@
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
     transition: transform 0.3s;
     align-self: center;
-    width: 25rem;
-    height: 37rem;
+    width: 84vw;
+    height: 47rem;
+    margin: 2rem;
 
     &:hover {
       transform: translateY(-1.5rem) scale(1.03);

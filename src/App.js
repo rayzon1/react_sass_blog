@@ -5,6 +5,7 @@ import Education from "./components/Education";
 import Navigation from "./components/Navigation";
 import Projects from "./components/Projects";
 import Popup from "./components/Popup";
+import Footer from "./components/Footer";
 import { data } from "./data";
 
 
@@ -21,6 +22,7 @@ export default function App() {
         <Education education={education} setPopupClickState={setPopupClickState}/>
         <Projects />
       </main>
+      <Footer />
       <Popup education={education} popupClickState={popupClickState}/>
     </div>
   );
