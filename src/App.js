@@ -15,6 +15,7 @@ export default function App() {
 
   return (
     <div className="App">
+    {/* <div><img src="" alt="" className="bridge-icon" /></div> */}
       <Navigation />
       <Header />
       <main>

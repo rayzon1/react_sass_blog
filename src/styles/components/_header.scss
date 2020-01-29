@@ -18,13 +18,18 @@
     
     .icon-box {
       border-radius: 10rem;
-      background-color: $color-primary-orange-1;
-      height: 16rem;
-      width: 16rem;
+      // background-color: $color-primary-orange-1;
+      overflow: hidden;
+      height: 18rem;
+      width: 18rem;
       margin-right: 3.5rem;
       position: relative;
       // z-index: 100;
       transition: all .3s;
+      border: .5rem solid $color-primary-orange-1;
+      
+
+      @include subtleBoxShadow;
 
       @include respond(tab-port) {
         margin-bottom: 1rem;
@@ -36,12 +41,12 @@
       }
       
       &__icon {
-        height: 16rem;
-        width: 16rem;
-
+        height: 36rem;
+        transform: translateX(-1rem) translateY(-8rem) rotate(-7deg);
+        mix-blend-mode: multiply;
         @include respond(phone) {
-          height: 14rem;
-          width: 14rem;
+          height: 27rem;
+          transform: translateX(-1rem) translateY(-6rem) rotate(-7deg);
         }
       }
     }
