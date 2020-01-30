@@ -55,7 +55,8 @@
   &__container {
     display: flex;
     animation: moveInLeft 1.3s ease-out;
-    padding: 2rem;
+    // padding: 2rem;
+    margin-right: 2rem;
     letter-spacing: .5rem;
 
     @include respond(tab-port) {
@@ -100,6 +101,17 @@
     }
   }
   
+}
+
+.sf-icon {
+  position: absolute;
+  z-index: 100;
+  top: 6rem;
+  left: 6rem;
+
+  &__icon {
+    height: 9rem;
+  }
 }
 
 

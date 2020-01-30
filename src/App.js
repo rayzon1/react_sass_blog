@@ -6,6 +6,8 @@ import Navigation from "./components/Navigation";
 import Projects from "./components/Projects";
 import Popup from "./components/Popup";
 import Footer from "./components/Footer";
+import Email from "./components/Email";
+import trolley from "./img/trolley.png"
 import { data } from "./data";
 
 
@@ -15,13 +17,16 @@ export default function App() {
 
   return (
     <div className="App">
-    {/* <div><img src="" alt="" className="bridge-icon" /></div> */}
+      {/* <div className="sf-icon">
+        <img src={trolley} alt="san francisco trolley" className="sf-icon__icon" />
+      </div> */}
       <Navigation />
       <Header />
       <main>
         <About summary={summary}/>
         <Education education={education} setPopupClickState={setPopupClickState}/>
         <Projects />
+        <Email />
       </main>
       <Footer />
       <Popup education={education} popupClickState={popupClickState}/>
