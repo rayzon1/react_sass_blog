@@ -9,6 +9,14 @@ export const data = {
   education: [
     {
       id: 1,
+      logo: Treehouse,
+      caption: "Team Treehouse",
+      descriptionSub: "Team Treehouse Full-Stack JavaScript Bootcamp",
+      descriptionMain:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio eos in officiis debitis fugit saepe pariatur! Loremipsum dolor sit amet consectetur adipisicing elit. Lorem ipsumdolor sit amet consectetur adipisicing elit.Distinctio eos inofficiis debitis, fugit saepe pariatur"
+    },
+    {
+      id: 2,
       logo: APlusComp,
       caption: "CompTia A+",
       descriptionSub: "CompTia A+ Certification",
@@ -16,20 +24,13 @@ export const data = {
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio eos in officiis debitis fugit saepe pariatur! Loremipsum dolor sit amet consectetur adipisicing elit. Lorem ipsumdolor sit amet consectetur adipisicing elit.Distinctio eos inofficiis debitis,fugit saepe pariatur"
     },
     {
-      id: 2,
+      id: 3,
       logo: SecPlusComp,
       caption: "CompTia Security+",
       descriptionSub: "CompTia Security+ Certification",
       descriptionMain:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio eos in officiis debitis fugit saepe pariatur! Loremipsum dolor sit amet consectetur adipisicing elit. Lorem ipsumdolor sit amet consectetur adipisicing elit.Distinctio eos inofficiis debitis, fugit saepe pariatur"
     },
-    {
-      id: 3,
-      logo: Treehouse,
-      caption: "Team Treehouse",
-      descriptionSub: "Team Treehouse Full-Stack JavaScript Bootcamp",
-      descriptionMain:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio eos in officiis debitis fugit saepe pariatur! Loremipsum dolor sit amet consectetur adipisicing elit. Lorem ipsumdolor sit amet consectetur adipisicing elit.Distinctio eos inofficiis debitis, fugit saepe pariatur"
-    }
+    
   ]
 };

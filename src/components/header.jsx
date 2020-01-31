@@ -11,7 +11,7 @@ export default function Header() {
           
           <h1 className="header__primary">
             <BgVideo />
-            <div className="header__container u-margin-bottom-md">
+            <div className="header__container">
 
             
             {/* <div className="sf-icon-box">
@@ -21,8 +21,10 @@ export default function Header() {
               <div className="icon-box">
                 <img src={ProfilePic1} alt="" className="icon-box__icon" />
               </div>
-              <span className="header__title-main">Gerardo Keys</span>
-              <span className="header__title-sub">Coder Designer Creator</span>
+              <div className="header__title">
+                <span className="header__title--main">Gerardo Keys</span>
+                <span className="header__title--sub">Coder Designer Creator</span>
+              </div>
             </div>
           </h1>
         </header>

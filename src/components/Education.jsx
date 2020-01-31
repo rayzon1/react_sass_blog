@@ -2,9 +2,6 @@ import React from "react";
 
 export default function Education({ education, setPopupClickState }) {
   // Main education detail section
-
-  //TODO: ON CLICK SET STATE TO ID
-  //TODO: DEPENDING ON ID THAT DATA WILL SHOW IN THE POPUP
   const EdDetails = ({ data }) => {
     return (
       <a href="#popup" className="education__link" onClick={() => setPopupClickState(data.id)}>
