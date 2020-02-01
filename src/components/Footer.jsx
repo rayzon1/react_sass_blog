@@ -1,10 +1,11 @@
 import React from "react";
+import LinkedIn from "../img/social/linkedin.png";
 
 export default function Footer() {
   return (
     <footer class="footer">
       <div class="footer__logo-box">
-        {/* <img src="img/logo-green-2x.png" alt="Full Logo" class="footer__logo" /> */}
+        <img src={LinkedIn} alt="Full Logo" class="footer__logo" />
       </div>
       <div class="footer__container">
         <p class="footer__copyright">
