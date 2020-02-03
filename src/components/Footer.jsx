@@ -1,11 +1,15 @@
 import React from "react";
 import LinkedIn from "../img/social/linkedin.png";
+import GitHub from "../img/social/github.png";
+import Facebook from "../img/social/facebook.png";
 
 export default function Footer() {
   return (
     <footer class="footer">
       <div class="footer__logo-box">
         <img src={LinkedIn} alt="Full Logo" class="footer__logo" />
+        <img src={GitHub} alt="Full Logo" class="footer__logo" />
+        <img src={Facebook} alt="Full Logo" class="footer__logo" />
       </div>
       <div class="footer__container">
         <p class="footer__copyright">

@@ -13,7 +13,7 @@ export const data = {
       caption: "Team Treehouse",
       descriptionSub: "Team Treehouse Full-Stack JavaScript Bootcamp",
       descriptionMain:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio eos in officiis debitis fugit saepe pariatur! Loremipsum dolor sit amet consectetur adipisicing elit. Lorem ipsumdolor sit amet consectetur adipisicing elit.Distinctio eos inofficiis debitis, fugit saepe pariatur"
+        "I went through this JavaScript bootcamp not knowing much about development. After a year of this curriculum, I can now create full-stack apps using technologies such as React, Node, and Express. It was a project based path which also had me peer-review code from other students which helped me understand how to read other developers code."
     },
     {
       id: 2,
@@ -31,6 +31,13 @@ export const data = {
       descriptionMain:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio eos in officiis debitis fugit saepe pariatur! Loremipsum dolor sit amet consectetur adipisicing elit. Lorem ipsumdolor sit amet consectetur adipisicing elit.Distinctio eos inofficiis debitis, fugit saepe pariatur"
     },
-    
+  ], 
+  projects: [
+    {
+      id: 1,
+      title: "Webflix Entertainment",
+      description: 
+        "One of my first projectes using React + Redux. I used The Movie Database API, which was great to get info on all the new and upcoming movies and tv shows."
+    }
   ]
 };

@@ -8,7 +8,7 @@ export default function Email() {
         <div className="book__form">
           <form action="#" className="form">
             <div className="u-margin-bottom-md">
-              <h2 className="heading-secondary">Start Booking Now</h2>
+              <h2 className="book__heading heading-secondary">Start Booking Now</h2>
             </div>
 
             <div className="form__group">
