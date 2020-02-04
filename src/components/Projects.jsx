@@ -1,4 +1,5 @@
 import React from "react";
+import WebFlix from "../img/webflix-scrn.png";
 
 export default function Projects() {
     const arr = [1,2,3,4]
@@ -14,6 +15,10 @@ export default function Projects() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
           dolor sit amet consectetur adipisicing elit.
         </p>
+        <div className="projects__screen">
+          <img src={WebFlix} alt="Webflix site screenshot" className="projects__screen--img"/> 
+        </div>
+        
       </div>
     );
   };

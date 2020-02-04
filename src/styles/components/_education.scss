@@ -8,6 +8,10 @@
     flex-direction: column;
     z-index: 5;
 
+    @include respond(tab-port) {
+      padding: 3rem 3rem;
+    }
+
 }
 
 .education {
@@ -17,7 +21,7 @@
     margin: 6rem auto;
     border-radius: 3px;
     padding: 6rem;
-    padding-left: 9rem;
+    // padding-left: 9rem;
     font-size: $default-font-size;
     transform: skewX(-12deg);
 

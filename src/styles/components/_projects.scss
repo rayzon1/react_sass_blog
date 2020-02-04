@@ -11,12 +11,18 @@
 
   @include respond(tab-port) {
     flex-direction: column;
+    height: 100%;
+    padding: 6rem 3rem;
+  }
+
+  &__text {
+    margin-bottom: 7rem;
   }
 
   &__container {
     background-color: rgba($color-white, 0.8);
     font-size: 1.5rem;
-    padding: 2.5rem;
+    // padding: 2.5rem;
     text-align: center;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
@@ -25,9 +31,25 @@
     width: 84vw;
     height: 50rem;
     margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
 
     &:hover {
       transform: translateY(-1.5rem) scale(1.03);
     }
+  }
+
+  &__screen {
+    margin-bottom: -1rem;
+
+    &--img {
+      width: 100%;
+      height: auto;
+
+    }
+
+
   }
 }

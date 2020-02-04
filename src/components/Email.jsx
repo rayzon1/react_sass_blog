@@ -6,7 +6,8 @@ export default function Email() {
     <section className="email">
       <div className="book">
         <div className="book__form">
-          <form action="#" className="form">
+          <form action="#" className="form" name="contact" method="post">
+            <input type="hidden" name="contact" value="contact" />
             <div className="u-margin-bottom-md">
               <h2 className="book__heading heading-secondary">Start Booking Now</h2>
             </div>
@@ -15,30 +16,36 @@ export default function Email() {
               <input
                 type="text"
                 id="name"
+                name="name"
                 placeholder="Full Name"
                 className="form__input"
                 required
               />
-              {/* <label for="name" className="form__label">
-                Full Name
-              </label> */}
             </div>
 
             <div className="form__group">
               <input
                 type="email"
                 id="email"
+                name="email"
                 placeholder="Email Address"
                 className="form__input"
                 required
               />
-              {/* <label for="email" className="form__label">
-                Email Address
-              </label> */}
             </div>
 
             <div className="form__group">
-              <button className="btn btn--green">Send Email &rarr;</button>
+              <textarea
+                type="text"
+                name="message"
+                id="comments"
+                placeholder="Comments"
+                className="form__input form__input--textarea"
+              />
+            </div>
+
+            <div className="form__group">
+              <button className="btn btn--green" type="submit">Send Email &rarr;</button>
             </div>
           </form>
         </div>
