@@ -6,8 +6,9 @@ export default function Email() {
     <section className="email">
       <div className="book">
         <div className="book__form">
-          <form className="form" name="contact" method="post">
-            <input type="hidden" name="contact" value="contact" />
+          <form className="form" method="post">
+            <input type="hidden" name="form-name" value="contact" />
+
             <div className="u-margin-bottom-md">
               <h2 className="book__heading heading-secondary">Start Booking Now</h2>
             </div>
