@@ -1,6 +1,9 @@
 import APlusComp from "./img/a-plus-comptia.png";
 import Treehouse from "./img/treehouse1.png";
 import SecPlusComp from "./img/sec-plus-comptia.png";
+// import WebFlix from "./img/webflix-scrn.png";
+import WebFlixDemo from "./img/webflix_demo.gif";
+import Courses from "./img/courses.png";
 
 export const data = {
   summary: {
@@ -36,8 +39,16 @@ export const data = {
     {
       id: 1,
       title: "Webflix Entertainment",
+      screenshot: WebFlixDemo,
       description: 
-        "One of my first projectes using React + Redux. I used The Movie Database API, which was great to get info on all the new and upcoming movies and tv shows."
+        "One of my first projects using React + Redux. I used The Movie Database API, which was great to get info on all the new and upcoming movies and tv shows. I used react-router for this application linking home page and search pages."
+    },
+    {
+      id: 2,
+      title: "Courses",
+      screenshot: Courses,
+      description: 
+        "Full-stack project using a rest api created by me using Express, Node and Sequelize. The app is connected to a SQLite database to hold course information and details. Sign-in and authorization feature implemented in Express with Express-validator."
     }
   ]
 };

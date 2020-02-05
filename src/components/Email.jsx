@@ -6,10 +6,7 @@ export default function Email() {
     <section className="email">
       <div className="book">
         <div className="book__form">
-          <form className="form" method="post" onSubmit={e => {
-              e.preventDefault();
-              console.log('Form submitted');
-            }}>
+          <form className="form" method="post">
             <input type="hidden" name="form-name" value="contact" />
 
             <div className="u-margin-bottom-md">
