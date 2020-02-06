@@ -12,5 +12,10 @@
         height: 100%;
         width: 100%;
         object-fit: cover; // will maintain aspect-ratio while filling content
+        overflow: hidden;
+    }
+
+    &__image {
+        transform: translateX(-14rem) translateY(-4rem);
     }
 }

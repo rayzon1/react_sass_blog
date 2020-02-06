@@ -17,6 +17,7 @@
 
     @include respond(phone){
       height: 96vh;
+      // padding: 0 4rem 0 2rem;
     }
 
     .icon-box {
@@ -75,6 +76,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    letter-spacing: 0.4rem;
 
     @include respond(tab-port) {
       flex-direction: column;
@@ -82,6 +84,8 @@
 
     @include respond(phone) {
       flex-direction: column;
+      // margin-left: 3rem;
+      // letter-spacing: 0.4rem;
     }
 
     &--main {
@@ -95,7 +99,13 @@
       @include respond(tab-port) {
         align-self: flex-start;
         margin-bottom: .5rem;
-        font-size: 2.6rem;
+        font-size: 4rem;
+      }
+
+      @include respond(phone) {
+        align-self: flex-start;
+        margin-bottom: .5rem;
+        font-size: 3rem;
       }
   
       &:hover {
@@ -115,7 +125,12 @@
   
       @include respond(tab-port) {
         margin-left: 0;
-        font-size: 3.5rem;
+        font-size: 5rem;
+      }
+
+      @include respond(phone) {
+        margin-left: 0;
+        font-size: 3rem;
       }
   
       &:hover {

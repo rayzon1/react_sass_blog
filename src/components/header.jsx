@@ -17,9 +17,9 @@ export default function Header() {
                 <img src={GoldenGateBridgeIcon} alt="" className="sf-icon-box__icon" />
               </div> */}
             
-              <div className="icon-box">
+              {/* <div className="icon-box">
                 <img src={ProfilePic1} alt="" className="icon-box__icon" />
-              </div>
+              </div> */}
               <div className="header__title">
                 <span className="header__title--main">Gerardo Keys</span>
                 <span className="header__title--sub">Coder Designer Creator</span>
