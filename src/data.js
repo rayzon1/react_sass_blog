@@ -2,7 +2,7 @@ import APlusComp from "./img/a-plus-comptia.png";
 import Treehouse from "./img/treehouse1.png";
 import SecPlusComp from "./img/sec-plus-comptia.png";
 // import WebFlix from "./img/webflix-scrn.png";
-import WebFlixDemo from "./img/webflix_demo.gif";
+import WebFlixDemo from "./img/webflix-demo_1.gif";
 import Courses from "./img/courses.png";
 
 export const data = {
