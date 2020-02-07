@@ -67,7 +67,7 @@
     @include respond(tab-port) {
       flex-direction: column;
       letter-spacing: 0;
-      margin-bottom: 11rem;
+      margin-bottom: 8rem;
     }
   }
 
@@ -77,9 +77,11 @@
     flex-direction: row;
     align-items: flex-end;
     letter-spacing: 0.4rem;
+    width: 75vw;
 
     @include respond(tab-port) {
       flex-direction: column;
+      align-items: baseline;
     }
 
     @include respond(phone) {
@@ -91,7 +93,7 @@
     &--main {
       color: $color-black;
       // align-self: flex-end;
-      font-size: 3.5rem;
+      font-size: 5rem;
       height: fit-content;
       background-color: papayawhip;
       transition: all .3s;
@@ -105,7 +107,7 @@
       @include respond(phone) {
         align-self: flex-start;
         margin-bottom: .5rem;
-        font-size: 3rem;
+        font-size: 2rem;
       }
   
       &:hover {
@@ -116,10 +118,10 @@
     &--sub {
       color: $color-grey-dark-3;
       // align-self: flex-end;
-      font-size: 2.5rem;
-      margin-left: 2.5rem;
+      font-size: 3rem;
+      margin-left: 6rem;
       height: fit-content;
-      margin-bottom: -.5rem;
+      // margin-bottom: -.5rem;
       background-color: papayawhip;
       transition: all .3s;
   
@@ -130,7 +132,7 @@
 
       @include respond(phone) {
         margin-left: 0;
-        font-size: 3rem;
+        font-size: 2.5rem;
       }
   
       &:hover {
