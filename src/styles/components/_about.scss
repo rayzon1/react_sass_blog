@@ -25,6 +25,16 @@
     &--main {
       font-size: 4.5rem;
       display: inline-block;
+      position: relative;
+
+      &--highlight {
+        width: 25rem;
+        height: 2rem;
+        top: 5.2rem;
+        left: -2rem;
+        background-color: rgba($color-primary, .6);
+        position: absolute;
+      }
 
       @include respond(tab-port) {
         font-size: 4rem;

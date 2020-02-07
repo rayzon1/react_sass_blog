@@ -30,7 +30,7 @@
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
   height: 50rem;
-  width: 70%;
+  width: 75%;
 
   @include respond(tab-port) {
     background-image: linear-gradient(
@@ -48,8 +48,8 @@
       to right ,
       rgba($color-white, 0.9) 0%,
       rgba($color-white, 0.9) 100%
-    ),
-
+    );
+    width: 85%;
   }
 
   @include respond(big-desktop) {

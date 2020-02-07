@@ -1,9 +1,9 @@
 import APlusComp from "./img/a-plus-comptia.png";
 import Treehouse from "./img/treehouse1.png";
 import SecPlusComp from "./img/sec-plus-comptia.png";
-// import WebFlix from "./img/webflix-scrn.png";
 import WebFlixDemo from "./img/webflix-demo_1.gif";
-import Courses from "./img/courses.png";
+import Flickr from "./img/flckr_demo.gif";
+import Phrase from "./img/phrase_game_demo.gif";
 
 export const data = {
   summary: {
@@ -45,10 +45,17 @@ export const data = {
     },
     {
       id: 2,
-      title: "Courses",
-      screenshot: Courses,
+      title: "Flickr Search",
+      screenshot: Flickr,
       description: 
-        "Full-stack project using a rest api created by me using Express, Node and Sequelize. The app is connected to a SQLite database to hold course information and details. Sign-in and authorization feature implemented in Express with Express-validator."
+        "One of my first projects I used Flickr's free api to create a gif search based on categories as well as user search. This project really taught me a lot about working with external api's and how to create user interaction and search."
+    },
+    {
+      id: 3,
+      title: "Phrase Hunter Gameshow",
+      screenshot: Phrase,
+      description: 
+        "I created this game to practice object-oriented programming and making a game with vanilla JavaScript, CSS and html. This really helped me cement my fundamentals in programming while creating a fun Jeopardy style game."
     }
   ]
 };

@@ -10,7 +10,7 @@ export default function Email() {
             <input type="hidden" name="form-name" value="contact" />
 
             <div className="u-margin-bottom-md">
-              <h2 className="book__heading heading-secondary">Start Booking Now</h2>
+              <h2 className="book__heading heading-secondary">CONTACT ME</h2>
             </div>
 
             <div className="form__group">
