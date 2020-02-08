@@ -56,6 +56,20 @@ export const data = {
       screenshot: Phrase,
       description: 
         "I created this game to practice object-oriented programming and making a game with vanilla JavaScript, CSS and html. This really helped me cement my fundamentals in programming while creating a fun Jeopardy style game."
+    },
+    {
+      id: 3,
+      title: "Phrase Hunter Gameshow",
+      screenshot: Phrase,
+      description: 
+        "I created this game to practice object-oriented programming and making a game with vanilla JavaScript, CSS and html. This really helped me cement my fundamentals in programming while creating a fun Jeopardy style game."
+    },
+    {
+      id: 3,
+      title: "Phrase Hunter Gameshow",
+      screenshot: Phrase,
+      description: 
+        "I created this game to practice object-oriented programming and making a game with vanilla JavaScript, CSS and html. This really helped me cement my fundamentals in programming while creating a fun Jeopardy style game."
     }
   ]
 };
