@@ -1,7 +1,6 @@
 .about {
   padding: 12rem 5rem;
   background-color: #eee;
-  // background-color: rgba(30%, 27%, 35%, 0.1);
   height: 100%;
   letter-spacing: .3rem;
   text-align: center;
@@ -34,6 +33,11 @@
         left: -2rem;
         background-color: rgba($color-primary, .6);
         position: absolute;
+
+        @include respond(tab-port) {
+          width: 23rem;
+          top: 4.5rem;
+        }
       }
 
       @include respond(tab-port) {

@@ -4,6 +4,7 @@ import SecPlusComp from "./img/sec-plus-comptia.png";
 import WebFlixDemo from "./img/webflix-demo_1.gif";
 import Flickr from "./img/flckr_demo.gif";
 import Phrase from "./img/phrase_game_demo.gif";
+import Registration from "./img/register_demo.gif";
 
 export const data = {
   summary: {
@@ -59,10 +60,10 @@ export const data = {
     },
     {
       id: 3,
-      title: "Phrase Hunter Gameshow",
-      screenshot: Phrase,
+      title: "Full-Stack Conference Registration Form",
+      screenshot: Registration,
       description: 
-        "I created this game to practice object-oriented programming and making a game with vanilla JavaScript, CSS and html. This really helped me cement my fundamentals in programming while creating a fun Jeopardy style game."
+        "One of my first projects using vanilla JavaScript and JQuery to create a validation form for a full-stack conference. I used Regex with this project for form validation and a random user api to create the user profiles."
     },
     {
       id: 3,
