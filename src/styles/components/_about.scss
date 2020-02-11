@@ -35,8 +35,10 @@
         position: absolute;
 
         @include respond(tab-port) {
-          width: 23rem;
-          top: 4.5rem;
+          // width: 23rem;
+          // top: 4.5rem;
+          width: 18.4rem;
+          top: 3.7rem;
         }
       }
 

@@ -25,7 +25,7 @@ export default function App() {
         <Email />
       </main>
       <Footer />
-      <Popup education={education} popupClickState={popupClickState}/>
+      <Popup education={education} popupClickState={popupClickState} setPopupClickState={setPopupClickState} />
     </div>
   );
 }
