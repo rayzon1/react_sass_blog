@@ -1,6 +1,6 @@
 import React from "react";
-import GithubDark from "../img/social/github-dark.png";
-import GlobeDark from "../img/social/globe-dark.png";
+import GithubGrey from "../img/social/github-grey.png";
+import GlobeGrey from "../img/social/globe-grey.png";
 
 export default function Projects({ projects }) {
   const ProjectCard = ({ data }) => {
@@ -12,12 +12,12 @@ export default function Projects({ projects }) {
 
         <div className="projects__logo">
           <img
-            src={GithubDark}
+            src={GithubGrey}
             className="projects__logo__icon"
             alt="dark github icon"
           />
           <img
-            src={GlobeDark}
+            src={GlobeGrey}
             className="projects__logo__icon"
             alt="dark globe icon"
           />

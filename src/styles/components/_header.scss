@@ -3,12 +3,11 @@
 .header {
   
   &__primary {
-    // background-color: red;
     height: 97vh;
     display: flex;
     flex-direction: row;
     text-transform: uppercase;
-    align-items: flex-end;
+    justify-content: flex-end;
     padding: 0 4rem 0 4rem;
     margin-right: 2rem;
     width: 100%;
@@ -17,7 +16,7 @@
 
     @include respond(phone){
       height: 96vh;
-      // padding: 0 4rem 0 2rem;
+      justify-content: flex-start;
     }
 
     .icon-box {
@@ -58,10 +57,10 @@
 
   &__container {
     display: flex;
+    // justify-content: flex-end;
+    align-self: center;
     animation: moveInLeft 1.3s ease-out;
-    // padding: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 4rem;
+    width: auto;
     letter-spacing: .5rem;
 
     @include respond(tab-port) {
@@ -74,10 +73,10 @@
   &__title {
     // align-self: flex-end;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    letter-spacing: 0.4rem;
-    width: 75vw;
+    flex-direction: column;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 
     @include respond(tab-port) {
       flex-direction: column;
@@ -86,16 +85,11 @@
 
     @include respond(phone) {
       flex-direction: column;
-      // margin-left: 3rem;
-      // letter-spacing: 0.4rem;
     }
 
     &--main {
       color: $color-black;
-      // align-self: flex-end;
       font-size: 5rem;
-      height: fit-content;
-      background-color: papayawhip;
       transition: all .3s;
   
       @include respond(tab-port) {
@@ -119,10 +113,7 @@
       color: $color-grey-dark-3;
       // align-self: flex-end;
       font-size: 3rem;
-      margin-left: 6rem;
-      height: fit-content;
-      // margin-bottom: -.5rem;
-      background-color: papayawhip;
+      width: fit-content;
       transition: all .3s;
   
       @include respond(tab-port) {
@@ -133,6 +124,7 @@
       @include respond(phone) {
         margin-left: 0;
         font-size: 2.5rem;
+        width: 25rem;
       }
   
       &:hover {
