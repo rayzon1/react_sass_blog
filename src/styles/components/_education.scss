@@ -1,6 +1,6 @@
 .section-education {
     height: 100%;
-    background-color: rgba(66%, 70%, 74%, 0.3);
+    background-color: $color-grey-dark-bg;
     padding: 6rem 3rem;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,6 @@
     margin: 6rem auto;
     border-radius: 3px;
     padding: 6rem;
-    // padding-left: 9rem;
     font-size: $default-font-size;
     transform: skewX(-12deg);
 
@@ -90,12 +89,22 @@
           opacity: 1;
           transform: translate(-50%, -50%); 
           cursor: pointer;
+
+          @include respond(tab-land) {
+            opacity: 0;
+            transform: none;
+          }
       }
     
       &:hover &__img {
         transform: translateX(0rem) scale(1.1);
         filter: blur(3px) brightness(80%);
         cursor: pointer;
+
+        @include respond(tab-land) {
+          filter: none;
+          transform: none;
+        }
       }
 
       &:hover,

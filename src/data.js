@@ -1,10 +1,11 @@
 import APlusComp from "./img/a-plus-comptia.png";
 import Treehouse from "./img/treehouse1.png";
 import SecPlusComp from "./img/sec-plus-comptia.png";
-import WebFlixDemo from "./img/webflix-demo_1.gif";
-import Flickr from "./img/flckr_demo.gif";
-import Phrase from "./img/phrase_game_demo.gif";
-import Registration from "./img/register_demo.gif";
+import WebFlixDemo from "./img/demos/webflix-demo_1.gif";
+import Flickr from "./img/demos/flckr_demo.gif";
+import Phrase from "./img/demos/phrase_game_demo.gif";
+import Registration from "./img/demos/register_demo.gif";
+import RandomUser from "./img/demos/randomuser-demo.gif"
 
 export const data = {
   summary: {
@@ -67,10 +68,10 @@ export const data = {
     },
     {
       id: 3,
-      title: "Phrase Hunter Gameshow",
-      screenshot: Phrase,
+      title: "Startup Directory",
+      screenshot: RandomUser,
       description: 
-        "I created this game to practice object-oriented programming and making a game with vanilla JavaScript, CSS and html. This really helped me cement my fundamentals in programming while creating a fun Jeopardy style game."
+        "One of my first projects using jQuery with fetch api and a free random user api to get profiles. I styled it to look like an official directory. Created classes using object-oriented programming to understand these concepts better."
     }
   ]
 };

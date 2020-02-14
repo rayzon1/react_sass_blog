@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Popup from "./components/Popup";
 import Footer from "./components/Footer";
 import Email from "./components/Email";
+import Technologies from "./components/Technologies";
 import { data } from "./data";
 
 
@@ -21,6 +22,7 @@ export default function App() {
       <main>
         <About summary={summary}/>
         <Education education={education} setPopupClickState={setPopupClickState}/>
+        <Technologies />
         <Projects projects={projects}/>
         <Email />
       </main>
