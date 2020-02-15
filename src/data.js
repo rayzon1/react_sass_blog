@@ -1,11 +1,25 @@
+// Education logos
 import APlusComp from "./img/a-plus-comptia.png";
 import Treehouse from "./img/treehouse1.png";
 import SecPlusComp from "./img/sec-plus-comptia.png";
+
+// Project Demos
 import WebFlixDemo from "./img/demos/webflix-demo_1.gif";
 import Flickr from "./img/demos/flckr_demo.gif";
 import Phrase from "./img/demos/phrase_game_demo.gif";
 import Registration from "./img/demos/register_demo.gif";
-import RandomUser from "./img/demos/randomuser-demo.gif"
+import RandomUser from "./img/demos/randomuser-demo.gif";
+
+// Tech logos
+import BootstrapLogo from "./img/icons/bootstrap-color.svg";
+import CssLogo from "./img/icons/css3-color.svg"; 
+import HtmlLogo from "./img/icons/html5-color.svg";
+import JsLogo from "./img/icons/js-logo.png";
+import NodeLogo from "./img/icons/nodejs-color.svg";
+import ReactLogo from "./img/icons/react-logo.png";
+import ReduxLogo from "./img/icons/redux-logo.png";
+import SassLogo from "./img/icons/sass-color.svg";
+
 
 export const data = {
   summary: {
@@ -73,5 +87,15 @@ export const data = {
       description: 
         "One of my first projects using jQuery with fetch api and a free random user api to get profiles. I styled it to look like an official directory. Created classes using object-oriented programming to understand these concepts better."
     }
+  ],
+  technologies: [
+    HtmlLogo,
+    CssLogo,
+    BootstrapLogo,
+    JsLogo,
+    NodeLogo,
+    ReactLogo,
+    ReduxLogo,
+    SassLogo
   ]
 };

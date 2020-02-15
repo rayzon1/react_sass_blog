@@ -13,7 +13,7 @@ import { data } from "./data";
 
 export default function App() {
   const [popupClickState, setPopupClickState] = useState(null);
-  const { education, summary, projects } = data;
+  const { education, summary, projects, technologies } = data;
 
   return (
     <div className="App">
@@ -22,7 +22,7 @@ export default function App() {
       <main>
         <About summary={summary}/>
         <Education education={education} setPopupClickState={setPopupClickState}/>
-        <Technologies />
+        <Technologies technologies={technologies}/>
         <Projects projects={projects}/>
         <Email />
       </main>

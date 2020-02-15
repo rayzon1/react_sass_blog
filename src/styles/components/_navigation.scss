@@ -9,7 +9,7 @@
       width: 7rem;
       position: fixed;
       top: 6rem;
-      right: 6rem;
+      right: 8rem;
       border-radius: 50%;
       z-index: 2000;
       box-shadow: 0 1rem 3rem rgba($color-black, .1);
@@ -33,7 +33,7 @@
       border-radius: 50%;
       position: fixed; // doesn't change position when scrolling page, is out of flow
       top: 6.5rem;
-      right: 6.5rem;
+      right: 8.5rem;
       background-image: radial-gradient(
         $color-primary-orange-2,
         $color-primary-orange-3
