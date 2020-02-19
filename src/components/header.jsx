@@ -1,6 +1,5 @@
 import React from 'react';
 import BgVideo from './BgVideo';
-import ProfilePic1 from '../img/profile-pic-1.png'
 
 export default function Header() {
 

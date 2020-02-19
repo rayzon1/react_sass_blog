@@ -1,10 +1,15 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 export default function Education({ education, setPopupClickState }) {
   // Main education detail section
   const EdDetails = ({ data }) => {
     return (
-      <a href="#popup" className="education__link" onClick={() => setPopupClickState(data.id)}>
+      <a
+        href="#popup"
+        className="education__link"
+        onClick={() => setPopupClickState(data.id)}
+      >
         <div className="education">
           <div className={`education__row--${data.id}`}>
             <figure className="education__shape">
@@ -28,12 +33,22 @@ export default function Education({ education, setPopupClickState }) {
   };
 
   return (
-    <section className="section-education">
-      <div className="education__container">
-        {education.map((data, index) => (
-          <EdDetails data={data} />
-        ))}
-      </div>
-    </section>
+    <>
+      <a id="EDUCATION_ANCHOR" />
+      <section className="section-education">
+        <h4 className="section-education__title">
+          EDUCATION
+          <div className="section-education__title--highlight" />
+        </h4>
+
+        <div className="education__container">
+          {education.map((data, index) => (
+            <Fade left>
+              <EdDetails data={data} />
+            </Fade>
+          ))}
+        </div>
+      </section>
+    </>
   );
 }

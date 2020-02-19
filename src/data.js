@@ -23,7 +23,8 @@ import SassLogo from "./img/icons/sass-color.svg";
 
 export const data = {
   summary: {
-    about: "Hello my name is Gerardo Keys. I have over 5 years of IT support experience working at some of the biggest tech companies in the world. I have become very experienced working in high performing and stressful environments, that have challenged and tested me in many different ways. I bring a diverse skillset of technical experience and amazing customer service. I am currently looking for new opportunities and challenges and to continue to grow with a great team. I have experience working in every aspect of IT including Google suite administration, Active Directory administration, executive support, onboarding, AV / conference room support, networking and security support, jira ticketing system, new engineering setups. On my own I have studied programming, specifically web application development using tools such as JavaScript, HTML, CSS/SASS, BEM, React, Node, and SQL. I have become proficient and have a GitHub account with about 20 or so projects. Doing this has given me a deeper understanding of programming which I can bring to any job that needs it."
+    about: "Hello my name is Gerardo Keys. I am a Javascript developer with 2 years experience with various technologies such as JavaScript, CSS/Sass, HTML and React. I have created multiple projects showcasing my skills with both vanilla JS, HTML and CSS as well as with JavaScript libraries such as React.",
+    about2: "I enjoy making good-looking, fluid and responsive websites. I especially like working in React and JavaScript to make interactive re-usable components. CSS/Sass is my go-to for styles and creating re-usable style libraries. I have working knowledge of BEM to keep my styles and code organized and re-usable."
   },
   education: [
     {

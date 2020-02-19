@@ -6,6 +6,21 @@
     flex-direction: column;
     z-index: 5;
 
+    &__title {
+      font-size: 4.5rem;
+      position: relative;
+      width: fit-content;
+      align-self: center;
+
+      &--highlight {
+        @include highlightBar;
+        @include respond(tab-port) {
+          width: 18.4rem;
+          top: 5.5rem;
+        }
+      }
+    }
+
     @include respond(tab-port) {
       padding: 3rem 3rem;
     }
@@ -102,8 +117,8 @@
         cursor: pointer;
 
         @include respond(tab-land) {
-          filter: none;
-          transform: none;
+          transform: translateX(0rem) scale(1.4);
+          filter: none;          
         }
       }
 
