@@ -1,10 +1,14 @@
+.section-projects {
+  height: 100%;
+  background-color: $color-grey-dark-bg;
+  padding: 6rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .projects {
   display: flex;
   justify-content: center;
-  flex-direction: row;
-  height: 100%;
-  width: 100%;
-  background-color: $color-grey-dark-bg;
   padding: 6rem 3rem;
   flex-wrap: wrap;
 
@@ -12,6 +16,22 @@
     flex-direction: column;
     height: 100%;
     padding: 6rem 0rem;
+  }
+
+  &__title-1 {
+    font-size: 4.5rem;
+    position: relative;
+    width: fit-content;
+    align-self: center;
+
+    &--highlight {
+      @include highlightBar;
+      width: 20rem;
+      @include respond(tab-port) {
+        width: 18.4rem;
+        top: 5.5rem;
+      }
+    }
   }
 
   &__title {
@@ -23,13 +43,12 @@
   }
 
   &__logo {
-
     @include respond(tab-port) {
       padding: 2rem;
     }
-    
+
     &__icon {
-      width: 5rem;
+      width: 4rem;
     }
 
     &__icon:first-child {
@@ -80,9 +99,6 @@
     &--img {
       width: 100%;
       height: auto;
-
     }
-
-
   }
 }

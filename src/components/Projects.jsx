@@ -1,6 +1,7 @@
 import React from "react";
 import GithubGrey from "../img/social/github-grey.png";
 import GlobeGrey from "../img/social/globe-grey.png";
+import Fade from "react-reveal/Fade";
 
 export default function Projects({ projects }) {
   const ProjectCard = ({ data }) => {
@@ -35,10 +36,18 @@ export default function Projects({ projects }) {
   };
 
   return (
-    <section className="projects">
-      {projects.map(data => (
-        <ProjectCard data={data} />
-      ))}
+    <section className="section-projects">
+      <h4 className="projects__title-1">
+        PROJECTS
+        <Fade left>
+          <div className="projects__title-1--highlight" />
+        </Fade>
+      </h4>
+      <div className="projects">
+        {projects.map(data => (
+          <ProjectCard data={data} />
+        ))}
+      </div>
     </section>
   );
 }

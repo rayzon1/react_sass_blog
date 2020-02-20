@@ -38,7 +38,9 @@ export default function Education({ education, setPopupClickState }) {
       <section className="section-education">
         <h4 className="section-education__title">
           EDUCATION
-          <div className="section-education__title--highlight" />
+          <Fade left>
+            <div className="section-education__title--highlight" />
+          </Fade>
         </h4>
 
         <div className="education__container">

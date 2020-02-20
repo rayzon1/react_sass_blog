@@ -41,7 +41,7 @@ export const data = {
       caption: "CompTia A+",
       descriptionSub: "CompTia A+ Certification",
       descriptionMain:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio eos in officiis debitis fugit saepe pariatur! Loremipsum dolor sit amet consectetur adipisicing elit. Lorem ipsumdolor sit amet consectetur adipisicing elit.Distinctio eos inofficiis debitis,fugit saepe pariatur"
+        "I studied and received my A+ certification during my time in school. This was my first certification and solidified my understanding and expertise with personal computer systems. This knowledge has helped me immensely on my coding journey."
     },
     {
       id: 3,
