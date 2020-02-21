@@ -23,7 +23,7 @@ import SassLogo from "./img/icons/sass-color.svg";
 
 export const data = {
   summary: {
-    about: "Hello my name is Gerardo Keys. I am a Javascript developer with 2 years experience with various technologies such as JavaScript, CSS/Sass, HTML and React. I have created multiple projects showcasing my skills with both vanilla JS, HTML and CSS as well as with JavaScript libraries such as React.",
+    about: "Hello my name is Gerardo Keys. I am a Javascript developer with 2 years experience working with various technologies such as JavaScript, CSS/Sass, HTML and React. I started learning to program in college when I was studying for my IT certifications. Even though I was able to get my certifications I seemed to fall in love with programming, specifically web development. I feel this path gives me a chance to learn a valuable skill and to be more creative.",
     about2: "I enjoy making good-looking, fluid and responsive websites. I especially like working in React and JavaScript to make interactive re-usable components. CSS/Sass is my go-to for styles and creating re-usable style libraries. I have working knowledge of BEM to keep my styles and code organized and re-usable."
   },
   education: [

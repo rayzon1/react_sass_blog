@@ -1,4 +1,4 @@
-.bg-video {
+.bg-photo {
 
     position: absolute;
     top: 0;
@@ -6,8 +6,7 @@
     height: 100%;
     width: 100%;
     z-index: -100;
-    // opacity: .15;
-
+    
     &__content {
         height: 100%;
         width: 100%;
@@ -26,6 +25,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba($color-white, .1);
+    background-color: rgba($color-white, .2);
     z-index: -99;
+    box-shadow: 0 0 18px 23px $color-grey-light-2 inset;
 }

@@ -1,6 +1,10 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 
+/**
+ * About section will display an about section outlining my experience. 
+ */
+
 export default function About({ summary }) {
   return (
     <>

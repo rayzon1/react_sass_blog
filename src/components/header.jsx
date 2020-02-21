@@ -1,5 +1,5 @@
 import React from 'react';
-import BgVideo from './BgVideo';
+import BgPhoto from './BgPhoto';
 
 export default function Header() {
 
@@ -8,7 +8,7 @@ export default function Header() {
         <header className="header">
           
           <h1 className="header__primary">
-            <BgVideo />
+            <BgPhoto />
             <div className="header__container">
 
             
