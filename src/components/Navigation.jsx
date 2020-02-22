@@ -27,23 +27,23 @@ export default function Navigation() {
             </a>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
+            <a href="#EDUCATION_ANCHOR" className="navigation__link" onClick={() => closeNav()}>
               <span>02</span>Education
             </a>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
-              <span>03</span>Popular tours
+            <a href="#TECHNOLOGIES_ANCHOR" className="navigation__link" onClick={() => closeNav()}>
+              <span>03</span>Technologies
+            </a>
+          </li>
+          <li className="navigation__item">
+            <a href="#PROJECTS_ANCHOR" className="navigation__link" onClick={() => closeNav()}>
+              <span>04</span>Projects
             </a>
           </li>
           <li className="navigation__item">
             <a href="#" className="navigation__link">
-              <span>04</span>Technologies
-            </a>
-          </li>
-          <li className="navigation__item">
-            <a href="#" className="navigation__link">
-              <span>05</span>Projects
+              <span>05</span>Download Resume
             </a>
           </li>
         </ul>

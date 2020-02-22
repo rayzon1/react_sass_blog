@@ -41,7 +41,7 @@ export const data = {
       caption: "CompTia A+",
       descriptionSub: "CompTia A+ Certification",
       descriptionMain:
-        "I studied and received my A+ certification during my time in school. This was my first certification and solidified my understanding and expertise with personal computer systems. This knowledge has helped me immensely on my coding journey."
+        "I studied and received my A+ certification during my time in school. This was my first certification and solidified my understanding and expertise with personal computer systems. This knowledge has helped me immensely on my coding journey. Having strong knowledge of all operating systems and software has made it a much easier transition to development."
     },
     {
       id: 3,
@@ -49,13 +49,15 @@ export const data = {
       caption: "CompTia Security+",
       descriptionSub: "CompTia Security+ Certification",
       descriptionMain:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio eos in officiis debitis fugit saepe pariatur! Loremipsum dolor sit amet consectetur adipisicing elit. Lorem ipsumdolor sit amet consectetur adipisicing elit.Distinctio eos inofficiis debitis, fugit saepe pariatur"
+        "The Security+ certification was my second IT certification and most challenging. I studied for a long time and worked very hard to pass this test. I learned so much about problem solving and how to effectively find the answer in a complicated field. These skills have really helped me switch to development much quicker. "
     },
   ], 
   projects: [
     {
       id: 1,
       title: "Webflix Entertainment",
+      github: "https://github.com/rayzon1/tmdb_webflix_entertainment_v1",
+      website: "https://webflixentertainment.netlify.com/#/home",
       screenshot: WebFlixDemo,
       description: 
         "One of my first projects using React + Redux. I used The Movie Database API, which was great to get info on all the new and upcoming movies and tv shows. I used react-router for this application linking home page and search pages."
@@ -63,6 +65,8 @@ export const data = {
     {
       id: 2,
       title: "Flickr Search",
+      github: "https://github.com/rayzon1/react_flickr_api",
+      website: "https://flickr-gen.netlify.com/#/",
       screenshot: Flickr,
       description: 
         "One of my first projects I used Flickr's free api to create a gif search based on categories as well as user search. This project really taught me a lot about working with external api's and how to create user interaction and search."
@@ -70,6 +74,8 @@ export const data = {
     {
       id: 3,
       title: "Phrase Hunter Gameshow",
+      github: "https://github.com/rayzon1/phrase-hunter-gameshow",
+      website: "https://rayzon1.github.io/phrase-hunter-gameshow/",
       screenshot: Phrase,
       description: 
         "I created this game to practice object-oriented programming and making a game with vanilla JavaScript, CSS and html. This really helped me cement my fundamentals in programming while creating a fun Jeopardy style game."
@@ -77,6 +83,8 @@ export const data = {
     {
       id: 3,
       title: "Full-Stack Conference Registration Form",
+      github: "https://github.com/rayzon1/interactive_form_and_validation",
+      website: "https://rayzon1.github.io/interactive_form_and_validation/",
       screenshot: Registration,
       description: 
         "One of my first projects using vanilla JavaScript and JQuery to create a validation form for a full-stack conference. I used Regex with this project for form validation and a random user api to create the user profiles."
@@ -84,6 +92,8 @@ export const data = {
     {
       id: 3,
       title: "Startup Directory",
+      github: "https://github.com/rayzon1/random-user_public_api",
+      website: "https://rayzon1.github.io/random-user_public_api/",
       screenshot: RandomUser,
       description: 
         "One of my first projects using jQuery with fetch api and a free random user api to get profiles. I styled it to look like an official directory. Created classes using object-oriented programming to understand these concepts better."

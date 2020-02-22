@@ -8,7 +8,10 @@ export default function Technologies({ technologies }) {
       <a id="TECHNOLOGIES_ANCHOR" />
       <section className="section-technologies">
         <h4 className="section-technologies__title">
-          TECHNOLOGIES
+          TECHNOLOGIES{" "}
+          <span role="img" aria-label="Man graduate emoji">
+            🤖
+          </span>
           <Fade left>
             <div className="section-technologies__title--highlight" />
           </Fade>

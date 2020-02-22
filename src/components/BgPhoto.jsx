@@ -4,7 +4,7 @@ import SfBackground2 from "../img/sf-background2.jpg";
 export default function BgPhoto() {
   return (
     <>
-      <div class="bg-photo">
+      <div className="bg-photo">
         <div className="bg-photo__content">
           <img
             src={SfBackground2}

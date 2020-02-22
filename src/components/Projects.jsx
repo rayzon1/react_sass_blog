@@ -12,16 +12,20 @@ export default function Projects({ projects }) {
         <p className="projects__text">{data.description}</p>
 
         <div className="projects__logo">
-          <img
-            src={GithubGrey}
-            className="projects__logo__icon"
-            alt="dark github icon"
-          />
-          <img
-            src={GlobeGrey}
-            className="projects__logo__icon"
-            alt="dark globe icon"
-          />
+          <a href={data.github} target="_blank">
+            <img
+              src={GithubGrey}
+              className="projects__logo__icon"
+              alt="dark github icon"
+            />
+          </a>
+          <a href={data.website} target="_blank">
+            <img
+              src={GlobeGrey}
+              className="projects__logo__icon"
+              alt="dark globe icon"
+            />
+          </a>
         </div>
 
         <div className="projects__screen">
@@ -36,18 +40,24 @@ export default function Projects({ projects }) {
   };
 
   return (
-    <section className="section-projects">
-      <h4 className="projects__title-1">
-        PROJECTS
-        <Fade left>
-          <div className="projects__title-1--highlight" />
-        </Fade>
-      </h4>
-      <div className="projects">
-        {projects.map(data => (
-          <ProjectCard data={data} />
-        ))}
-      </div>
-    </section>
+    <>
+      <div id="PROJECTS_ANCHOR" />
+      <section className="section-projects">
+        <h4 className="projects__title-1">
+          PROJECTS{" "}
+          <span role="img" aria-label="Man studying emoji">
+            👨🏼‍💻
+          </span>
+          <Fade left>
+            <div className="projects__title-1--highlight" />
+          </Fade>
+        </h4>
+        <div className="projects">
+          {projects.map(data => (
+            <ProjectCard data={data} />
+          ))}
+        </div>
+      </section>
+    </>
   );
 }

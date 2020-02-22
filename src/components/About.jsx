@@ -8,7 +8,7 @@ import Fade from "react-reveal/Fade";
 export default function About({ summary }) {
   return (
     <>
-      <a id="ABOUT_ANCHOR" />
+      <div id="ABOUT_ANCHOR" />
       <section className="about">
         <h4 className="about__title--main u-margin-bottom-lg">
           ALL ABOUT ME{" "}

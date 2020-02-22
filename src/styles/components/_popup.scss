@@ -43,12 +43,18 @@
 
   &__left {
     width: 25rem;
+    align-self: baseline;
+    margin-left: 7rem;
   }
 
   &__right {
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 9rem;
+
+    @include respond(tab-port) {
+      padding: 3rem 4rem;
+    }
   }
 
   &__img {

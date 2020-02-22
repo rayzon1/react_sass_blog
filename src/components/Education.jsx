@@ -37,7 +37,10 @@ export default function Education({ education, setPopupClickState }) {
       <a id="EDUCATION_ANCHOR" />
       <section className="section-education">
         <h4 className="section-education__title">
-          EDUCATION
+          EDUCATION{" "}
+          <span role="img" aria-label="Man graduate emoji">
+             👨🏼‍🎓
+          </span>
           <Fade left>
             <div className="section-education__title--highlight" />
           </Fade>

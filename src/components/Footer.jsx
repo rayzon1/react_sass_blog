@@ -5,20 +5,28 @@ import Facebook from "../img/social/facebook.png";
 
 export default function Footer() {
   return (
-    <footer class="footer">
-      <div class="footer__logo-box">
-        <img src={LinkedIn} alt="Full Logo" class="footer__logo" />
-        <img src={GitHub} alt="Full Logo" class="footer__logo" />
-        <img src={Facebook} alt="Full Logo" class="footer__logo" />
-      </div>
-      <div class="footer__container">
-        <p class="footer__copyright">
-          Build by Gerardo Keys for his online course Advanced CSS and Sass .
-          Copyright &copy; by Gerardo Keys. You are allowed to use this webpage
-          for both personal or commercial use but not to claim it as your own
-          design. Credit for the designer is appreciated.
-        </p>
-      </div>
-    </footer>
+    <>
+      <div id="FOOTER_ANCHOR" />
+      <footer class="footer">
+        <div class="footer__logo-box">
+          <a href="www.linkedin.com/in/gerardo-keys-38ba7668" target="_blank">
+            <img src={LinkedIn} alt="Full Logo" class="footer__logo" />
+          </a>
+          <a href="https://github.com/rayzon1" target="_blank">
+            <img src={GitHub} alt="Full Logo" class="footer__logo" />
+          </a>
+          <a href="https://www.facebook.com/gerardo.keys" target="_blank">
+            <img src={Facebook} alt="Full Logo" class="footer__logo" />
+          </a>
+        </div>
+        <div class="footer__container">
+          <p class="footer__copyright">
+            Build by Gerardo Keys for his online portfolio . Copyright &copy; by
+            Gerardo Keys. You are allowed to use this webpage for both personal
+            or commercial use.
+          </p>
+        </div>
+      </footer>
+    </>
   );
 }
