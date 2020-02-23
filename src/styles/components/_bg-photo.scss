@@ -15,7 +15,14 @@
     }
 
     &__image {
-        transform: translateX(-10rem) translateY(-4rem);
+        @include respond(tab-land) {
+            transform: translateX(-10rem) translateY(-4rem);
+        }
+
+        @include respond(big-desktop) {
+            transform: translateX(-10rem) translateY(-4rem);
+        }
+        
     }
 }
 

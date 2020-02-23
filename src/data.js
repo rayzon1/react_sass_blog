@@ -81,7 +81,7 @@ export const data = {
         "I created this game to practice object-oriented programming and making a game with vanilla JavaScript, CSS and html. This really helped me cement my fundamentals in programming while creating a fun Jeopardy style game."
     },
     {
-      id: 3,
+      id: 4,
       title: "Full-Stack Conference Registration Form",
       github: "https://github.com/rayzon1/interactive_form_and_validation",
       website: "https://rayzon1.github.io/interactive_form_and_validation/",
@@ -90,7 +90,7 @@ export const data = {
         "One of my first projects using vanilla JavaScript and JQuery to create a validation form for a full-stack conference. I used Regex with this project for form validation and a random user api to create the user profiles."
     },
     {
-      id: 3,
+      id: 5,
       title: "Startup Directory",
       github: "https://github.com/rayzon1/random-user_public_api",
       website: "https://rayzon1.github.io/random-user_public_api/",

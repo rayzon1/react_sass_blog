@@ -61,11 +61,16 @@
     animation: moveInLeft 1.3s ease-out;
     width: auto;
     letter-spacing: .5rem;
+    margin-right: 5rem;
 
     @include respond(tab-port) {
       flex-direction: column;
       letter-spacing: 0;
       margin-bottom: 8rem;
+    }
+
+    @include respond(tab-land) {
+      margin-right: 0;
     }
 
     @include respond(big-desktop) {
