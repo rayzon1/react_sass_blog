@@ -15,6 +15,10 @@
         display: flex;
         justify-content: space-evenly;
         margin: 0 auto 8rem;
+
+        @include respond(phone) {
+            width: 52%;
+        }
     }
 
     &__logo {
