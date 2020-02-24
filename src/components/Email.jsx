@@ -7,7 +7,7 @@ export default function Email() {
       <div className="book">
         <div className="book__form">
           <form className="form" name="contact" method="post">
-            <input type="hidden" name="contact" value="contact" />
+            <input type="hidden" name="form-name" value="contact" />
 
             <div className="u-margin-bottom-md">
               <h2 className="book__heading heading-secondary">CONTACT ME</h2>
