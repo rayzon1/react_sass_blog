@@ -21,9 +21,7 @@ export default function Footer() {
         </div>
         <div class="footer__container">
           <p class="footer__copyright">
-            Build by Gerardo Keys for his online portfolio . Copyright &copy; by
-            Gerardo Keys. You are allowed to use this webpage for both personal
-            or commercial use.
+            Build by Gerardo Keys for his online portfolio . 
           </p>
         </div>
       </footer>

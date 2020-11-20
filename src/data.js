@@ -20,6 +20,9 @@ import ReactLogo from "./img/icons/react-logo.png";
 import ReduxLogo from "./img/icons/redux-logo.png";
 import SassLogo from "./img/icons/sass-color.svg";
 
+// Self Pictures
+import selfiePic from "./img/about-selfie-1.png"
+
 
 export const data = {
   summary: {
@@ -37,7 +40,7 @@ export const data = {
     },
     {
       id: 2,
-      logo: APlusComp,
+      logo: selfiePic,
       caption: "CompTia A+",
       descriptionSub: "CompTia A+ Certification",
       descriptionMain:
