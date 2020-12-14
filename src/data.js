@@ -72,7 +72,7 @@ export const data = {
       website: "https://flickr-gen.netlify.com/#/",
       screenshot: Flickr,
       description: 
-        "One of my first projects I used Flickr's free api to create a gif search based on categories as well as user search. This project really taught me a lot about working with external api's and how to create user interaction and search."
+        "For this project I used Flickr's free api to create a gif search based on categories as well as user search. This project helped me become proficient working with external api's and how to create user interaction and search features."
     },
     {
       id: 3,
